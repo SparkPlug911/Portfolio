@@ -1,0 +1,141 @@
+body{
+	margin : 0;
+	padding : 0;
+	background-color: black;
+
+}
+.img-circle{
+	border-radius : 50%;
+}
+/*.content1{
+	position : realtive;
+	background-color : teal;
+	margin:0;
+	padding:0;
+	height : 350px;
+	clear:both;
+	width : 100%;
+}*/
+.middle{
+	position : relative;
+	margin-top : 90px;
+	background-color : white;
+	width : 100%;
+	height : 200px;
+}
+.middle > img{
+	position : relative;
+	width : 150px;
+	height : 150px;
+	top : -110px;
+	margin : 10px;
+	border : 4px solid white;
+	border-radius : 5em;
+	}
+.middle > p{
+	position : relative;
+	font-size : 20px;
+	font-weight : bold;
+	text-align : center;
+	width : 100%;
+	top : -120px;
+	}
+.middle >p>a{
+	text-decoration : none;
+	position : relative;
+	top : 25px;
+	padding : 15px;
+	color : teal;
+	border : 1px solid teal;
+	border-radius : 5px;
+}
+.content-2{
+	position : relative;
+	top: -80px;
+	padding : 0;
+	clear : both;
+	width : 100%;
+		}
+.content-2text{
+	position : relative;
+	color : white;
+	text-align : center;
+	font-size : 30px;
+	font-weight : 5em;
+	width : 100%;
+	top : 85px;
+	padding : 0;
+}
+.content-3{
+	position : relative;
+	display : block;
+	margin-top : 10px;
+	width : 100%;
+}
+.content-3text>p{
+	text-align : center;
+}
+.content-3text>p>a>img{
+	position : relative;
+	width : 250px;
+	height : 250px;
+	
+}
+#brush{
+	float : left;
+}
+#code{
+	text-align : center;
+}
+#android{
+	float : right;
+}
+.footer{
+	margin-top : 50px;
+	margin-bottom : 0;
+	padding : 0;
+	clear : both;
+	width :  100%;
+	height : 100%;
+	background-color : linen;
+	display : inline-block;
+	float : left;
+	padding-top : 45px;
+}
+#elposition{
+	text-align : center;
+}
+#left-text{
+	margin-left : 50px;
+	display : inline-block;
+	float : left;
+	}
+#right-text{
+	margin-right : 50px;
+	display : inline-block;
+	float : right;
+	text-align  :right;
+}
+.footer > hr{
+	display : inline-block;
+	position:relative;
+	width : 0;
+	height : 80px;
+	border : 0.05em solid chocolate;
+	
+}
+#firstbar{
+	float : left;
+	left : 50px;
+}
+.footer img{
+	position : relative;
+	left : 200px;
+	height : 80px;
+	width : 400px;
+	top : -15px;
+	text-align : center;
+}
+#secondbar{
+	left : 350px;
+}
