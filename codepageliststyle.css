@@ -1,0 +1,11 @@
+#first > h1, img, hr, p{
+	display : inline-block;
+	margin-left : 50px;
+}
+#second > h1, img, hr, p{
+	display : inline-block;
+	margin-left : 50px;
+}
+p{
+	color : black;
+}
