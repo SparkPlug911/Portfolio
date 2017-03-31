@@ -1,1 +1,16 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
+# Ignore node_module
+node_modules
+.idea
+npm-debug.log
 .idea/*
+sso-config.php
+sso-config.php
+
+*.coder.orig
